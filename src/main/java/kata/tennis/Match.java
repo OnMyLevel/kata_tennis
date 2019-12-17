@@ -1,3 +1,5 @@
+import kata.tennis.Player;
+
 import java.util.Random;
 
 public class Match {

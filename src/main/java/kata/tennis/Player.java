@@ -73,7 +73,4 @@ public class Player {
         return gamePoint;
     }
 
-    public static void main (String[] args){
-        System.out.println("Hello World");
-    }
 }
