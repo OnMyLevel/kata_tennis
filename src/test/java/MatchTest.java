@@ -1,44 +1,23 @@
+import kata.tennis.Match;
+import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class MatchTest {
 
-    @Test
-    public String toString() {
 
-        return  "";
-    }
 
-    @Test
-    public void getPlayerOne() {
-    }
 
-    @Test
-    public void setPlayerOne() {
-    }
-
-    @Test
-    public void setPlayerTwo() {
-    }
-
-    @Test
-    public void getPoint() {
-    }
-
-    @Test
-    public void winSet() {
-    }
 
     @Test
     public void winMatch() {
+
+
+        Match match = new Match(7,"P1","P2");
+        match.playMatch();
+        Match test = match;
+        Assert.assertEquals(test,match);
+
     }
 
-    @Test
-    public void getCurrentSet() {
-    }
 
-    @Test
-    public void setCurrentSet() {
-    }
 }
