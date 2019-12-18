@@ -1,3 +1,5 @@
+package kata.tennis;
+
 import kata.tennis.Match;
 import org.junit.Assert;
 import org.junit.Test;
